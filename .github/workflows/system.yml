@@ -1,0 +1,13 @@
+name: mostrar-ip
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  mostrarLaIp:
+    runs-on: ubuntu-22.04.4
+    steps:
+      - name: virtual-Ip
+        run: ip add

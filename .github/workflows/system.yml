@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: virtual-Ip
-        run: ip add
+        run: ls

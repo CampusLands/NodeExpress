@@ -7,7 +7,7 @@ on:
 
 jobs:
   mostrarLaIp:
-    runs-on: ubuntu-22.04.4
+    runs-on: ubuntu-22.04
     steps:
       - name: virtual-Ip
         run: ip add

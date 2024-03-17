@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 20.11.0
       - name: instalar los paquetes
-        run: npm install
+        run: npm install --no-audit --no-fund
